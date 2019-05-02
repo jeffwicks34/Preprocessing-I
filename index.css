@@ -30,6 +30,18 @@ header h5 {
   line-height: 0.1rem;
 }
 
+nav {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 10px;
+  font-family: Helvetica Neue, sans-serif;
+  color: #34495e;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 70%;

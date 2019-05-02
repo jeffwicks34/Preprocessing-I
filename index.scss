@@ -81,6 +81,19 @@ header {
 
 	}
 
+nav {
+
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	a {
+		text-decoration: none;
+		margin-right: 10px;
+		font-family: $headline-font-stack;
+		color: $dark-grey;
+	}
+}
+
 .wrapper {
 	margin: 0 auto;
 	width: 70%;
