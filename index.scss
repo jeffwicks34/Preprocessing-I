@@ -1,0 +1,165 @@
+$header-color: #ecf0f1;
+$title-text-color: #3498db;
+$paragraph-grey-color: #bdc3c7;
+$dark-grey: #34495e;
+$headline-text-dark: black;
+$paragraph-font-stack: Lora, serif;
+$headline-font-stack: Helvetica Neue, sans-serif;
+$text-margin: 20px;
+
+
+@mixin flexbox-row {
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	
+}
+
+
+@mixin flexbox-column {
+
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+	
+}
+
+
+header {
+
+	@include flexbox-row;
+	background: $header-color;
+	margin-bottom: 50px;
+
+
+			.column1 {
+	      	  width: 55%;
+	      	  
+	      	  
+			}
+
+				h1 {
+
+					font-family: $headline-font-stack;
+					color: $headline-text-dark;
+					line-height: 1rem;
+					padding-left: $text-margin;
+					
+				}
+
+				h2 {
+					font-family: $headline-font-stack;
+					color: $title-text-color;
+					font-size: 2rem;
+					line-height: 1rem;
+					padding-left: $text-margin;
+
+				}
+		
+
+	
+
+			.column2 {
+			  width: 42%;
+			  
+			  
+			}
+
+				h5 {
+					font-family: $headline-font-stack;
+					color: $dark-grey;
+					line-height: 0.1rem;
+
+
+
+				}
+
+				
+  		
+
+	}
+
+nav {
+
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	a {
+		text-decoration: none;
+		margin-right: 10px;
+		font-family: $headline-font-stack;
+		color: $dark-grey;
+	}
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 70%;
+
+}
+
+.personal-statement {
+
+	width: 60%;
+	margin: 0 auto;
+
+		p {
+			
+			font-family: $paragraph-font-stack;
+			color: $dark-grey;
+			line-height: 1.25rem;
+		}
+}
+
+.main {
+
+@include flexbox-row;
+
+	.column1 {
+     
+      width: 55%;
+	}
+
+
+	.column2 {
+     
+      width: 42%;
+	}
+
+	h4 {
+		font-family: $headline-font-stack;
+		color: $dark-grey;
+	}
+
+	h3 {
+		font-family: $headline-font-stack;
+		color: $headline-text-dark;
+		font-weight: 600;
+
+			i {
+
+				color: $dark-grey;
+				font-weight: 200;
+				margin-left: 5px;
+			}
+	}
+
+	h6 {
+		font-family: $headline-font-stack;
+		color: $paragraph-grey-color;
+		margin-top: -10px;
+	}
+
+	p {
+		font-family: $paragraph-font-stack;
+		color: $paragraph-grey-color;
+
+	}
+
+}
+
+hr {
+	border: 1px solid $paragraph-grey-color;
+}

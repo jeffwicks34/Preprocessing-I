@@ -1,0 +1,99 @@
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background: #ecf0f1;
+  margin-bottom: 50px;
+}
+header .column1 {
+  width: 55%;
+}
+header h1 {
+  font-family: Helvetica Neue, sans-serif;
+  color: black;
+  line-height: 1rem;
+  padding-left: 20px;
+}
+header h2 {
+  font-family: Helvetica Neue, sans-serif;
+  color: #3498db;
+  font-size: 2rem;
+  line-height: 1rem;
+  padding-left: 20px;
+}
+header .column2 {
+  width: 42%;
+}
+header h5 {
+  font-family: Helvetica Neue, sans-serif;
+  color: #34495e;
+  line-height: 0.1rem;
+}
+
+nav {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 10px;
+  font-family: Helvetica Neue, sans-serif;
+  color: #34495e;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.personal-statement {
+  width: 60%;
+  margin: 0 auto;
+}
+.personal-statement p {
+  font-family: Lora, serif;
+  color: #34495e;
+  line-height: 1.25rem;
+}
+
+.main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.main .column1 {
+  width: 55%;
+}
+.main .column2 {
+  width: 42%;
+}
+.main h4 {
+  font-family: Helvetica Neue, sans-serif;
+  color: #34495e;
+}
+.main h3 {
+  font-family: Helvetica Neue, sans-serif;
+  color: black;
+  font-weight: 600;
+}
+.main h3 i {
+  color: #34495e;
+  font-weight: 200;
+  margin-left: 5px;
+}
+.main h6 {
+  font-family: Helvetica Neue, sans-serif;
+  color: #bdc3c7;
+  margin-top: -10px;
+}
+.main p {
+  font-family: Lora, serif;
+  color: #bdc3c7;
+}
+
+hr {
+  border: 1px solid #bdc3c7;
+}
+
+/*# sourceMappingURL=index.css.map */
